@@ -185,12 +185,12 @@ export default function About() {
 								{
 									nameFr: "Abderrahim Darrih",
 									nameAr: "عبد الرحيم الضارح",
-									role: "Secrétaire Général",
+									role: "Rédacteur de l'association",
 								},
 								{
 									nameFr: "Abdelaziz Benzaina",
 									nameAr: "عبد العزيز بنزينة",
-									role: "Secrétaire Général Adj.",
+									role: "Rédacteur Adj.",
 								},
 								{ nameFr: "Mohamed Baouti", nameAr: "محمد باوتي", role: "Trésorier" },
 								{ nameFr: "Youssef Id Braim", nameAr: "يوسف إد برايم", role: "Trésorier Adjoint" },

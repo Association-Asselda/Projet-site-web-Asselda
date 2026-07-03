@@ -4,9 +4,9 @@ import { MdLightbulbCircle } from "react-icons/md";
 import { FaLeaf } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import ProjetsSection from "@/lib/Caroussel";
+import ProjetsSection from "@/components/ProjectCaroussel";
 import AnimatedCounter from "@/components/AnimatedCounter";
-import styles from "@/styles/page.module.css";
+import styles from "@/styles/home.module.css";
 import { API_URL } from "@/lib/api";
 
 export default function Home() {
@@ -91,7 +91,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			{ProjetsSection()}
+			{ProjetsSection("fr")}
 			<section className={styles.news_section}>
 				<div className={styles.news_container}>
 					<h2 className={styles.news_title}>Actualités & Événements</h2>
