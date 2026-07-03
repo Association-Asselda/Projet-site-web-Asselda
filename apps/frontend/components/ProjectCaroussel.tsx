@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "@/styles/home.module.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { API_URL } from "@/lib/api";
 import { Language, getTranslation } from "@/lib/translations";
 import { buildLocalizedLink, useCurrentLanguage } from "@/lib/useLanguage";
 import Link from "next/link";
@@ -114,7 +115,7 @@ export default function ProjectsSection(language?: Language) {
 								<div className={styles.carouselSlide} key={project.id}>
 									<div className={styles.projectCard}>
 										<img
-											src={imageURLs[project.id]}
+											src={API_URL + imageURLs[project.id - 1]}
 											alt={project[language || "fr"].title}
 											className={styles.projectImage}
 										/>
