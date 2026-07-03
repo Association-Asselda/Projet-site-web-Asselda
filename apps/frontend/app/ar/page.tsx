@@ -2,9 +2,9 @@
 import { MdFamilyRestroom } from "react-icons/md";
 import { MdLightbulbCircle } from "react-icons/md";
 import { FaLeaf } from "react-icons/fa";
-import ProjetsSectionAr from "@/lib/caroussel_ar";
+import ProjectsSection from "@/components/ProjectCaroussel";
 import AnimatedCounter from "@/components/AnimatedCounter";
-import styles from "@/styles/page.module.css";
+import styles from "@/styles/home.module.css";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { API_URL } from "@/lib/api";
@@ -25,7 +25,7 @@ export default function Home() {
 					</p>
 
 					<p className={styles.subtitle}>
-						جمعية أسيلدا تعمل منذ عام 1996 على البيئة والتنمية الريفية ورعاية الأسر في منطقة أسني والحوز.
+						جمعية أسلدة تعمل منذ عام 1996 على البيئة والتنمية القروية ورعاية الأسر في منطقة أسني والحوز.
 					</p>
 
 					<div className={styles.buttons}>
@@ -87,7 +87,7 @@ export default function Home() {
 					</div>
 				</div>
 			</section>
-			{ProjetsSectionAr()}
+			{ProjectsSection("ar")}
 			<section className={styles.news_section}>
 				<div className={styles.news_container}>
 					<h2 className={styles.news_title}>الأخبار والأحداث</h2>

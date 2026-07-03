@@ -27,6 +27,19 @@ export const translations = {
 			home: {
 				title: "Association Asselda",
 				description: "Pour l'environnement, le développement et la famille – depuis 1996",
+				keywords: [
+					"Association Asselda",
+					"Accueil",
+					"Environnement",
+					"Développement",
+					"Famille",
+					"Al Haouz",
+					"Asni",
+				],
+				carouselNextProjectLabel: "Projet suivant",
+				carouselPrevProjectLabel: "Projet précédent",
+				carouselSeeProject: "Voir le projet",
+				carouselSeeAllProjects: "Voir tous les projets",
 			},
 			about: {
 				title: "À Propos - Association Asselda",
@@ -171,7 +184,9 @@ export const translations = {
 			contact: "Contact",
 			info: "Informations",
 			location: "Douar Asselda, Asni",
+			emailLabel: "Email :",
 			email: "associationasselda@gmail.com",
+			phoneLabel: "Téléphone :",
 			phone: "06 60 01 57 30",
 			social: "Réseaux Sociaux",
 			followUs: "Suivez-nous",
@@ -202,6 +217,11 @@ export const translations = {
 			home: {
 				title: "Asselda Association",
 				description: "For the environment, development, and family – since 1996",
+				keywords: ["Asselda Association", "Home", "Environment", "Development", "Family", "Al Haouz", "Asni"],
+				carouselNextProjectLabel: "Next Project",
+				carouselPrevProjectLabel: "Previous Project",
+				carouselSeeProject: "See Project",
+				carouselSeeAllProjects: "See All Projects",
 			},
 			about: {
 				title: "About - Asselda Association",
@@ -338,7 +358,9 @@ export const translations = {
 			contact: "Contact",
 			info: "Information",
 			location: "Douar Asselda, Asni",
+			emailLabel: "Email:",
 			email: "associationasselda@gmail.com",
+			phoneLabel: "Phone:",
 			phone: "06 60 01 57 30",
 			social: "Socials",
 			followUs: "Follows Us",
@@ -368,12 +390,17 @@ export const translations = {
 			home: {
 				title: "جمعية أسلدة",
 				description: "من أجل البيئة والتنمية والعائلة – منذ 1996",
+				keywords: ["جمعية أسلدة", "الرئيسية", "البيئة", "التنمية", "العائلة", "الحوز", "أسني"],
+				carouselNextProjectLabel: "المشروع التالي",
+				carouselPrevProjectLabel: "المشروع السابق",
+				carouselSeeProject: "عرض المشروع",
+				carouselSeeAllProjects: "عرض جميع المشاريع",
 			},
 			about: {
 				title: "من نحن - جمعية أسلدة",
 				description:
 					"صفحة من نحن التي تقدم المزيد من المعلومات حول جمعية أسلدة تحتوي على جميع المعلومات حولها وجميع مشاريعها المنجزة",
-				keywords: ["أسلدة", "جمعية", "من نحن", "تطوير", "ريفية", "الحوز"],
+				keywords: ["أسلدة", "جمعية", "من نحن", "تطوير", "قروية", "الحوز"],
 			},
 			news: {
 				title: "الأخبار - جمعية أسلدة",
@@ -392,8 +419,8 @@ export const translations = {
 			projects: {
 				title: "المشاريع - جمعية أسلدة",
 				description:
-					"اكتشف المشاريع المنجزة والجارية لجمعية أسلدة، التي تهدف إلى تحسين ظروف حياة سكان دوار أسلدة من خلال مبادرات مستدامة في مجالات البيئة والتنمية الريفية والشؤون الاجتماعية والتعليم.",
-				keywords: ["مشاريع", "جمعية أسلدة", "دوار أسلدة", "بيئة", "تنمية ريفية", "شؤون اجتماعية", "تعليم"],
+					"اكتشف المشاريع المنجزة والجارية لجمعية أسلدة، التي تهدف إلى تحسين ظروف حياة سكان دوار أسلدة من خلال مبادرات مستدامة في مجالات البيئة والتنمية القروية والشؤون الاجتماعية والتعليم.",
+				keywords: ["مشاريع", "جمعية أسلدة", "دوار أسلدة", "بيئة", "تنمية قروية", "شؤون اجتماعية", "تعليم"],
 				statuses: {
 					inProgress: "جارٍ",
 					done: "منجز",
@@ -403,7 +430,7 @@ export const translations = {
 				domains: {
 					environment: "بيئة",
 					sanitation: "الماء والصرف الصحي",
-					infrastructure: "البنية التحتية والتنمية الريفية",
+					infrastructure: "البنية التحتية والتنمية القروية",
 					social: "الشؤون الاجتماعية والعائلة",
 				},
 				budgetLabel: "الميزانية",
@@ -415,10 +442,10 @@ export const translations = {
 				title: "الأنشطة - جمعية أسلدة",
 				description:
 					"اكتشف المشاريع والمبادرات التابعة لجمعية أسلدة من أجل التنمية المستدامة وسعادة سكان منطقة أسني بالحوز.",
-				keywords: ["جمعية أسلدة", "أنشطة", "مشاريع", "تنمية مستدامة", "بيئة", "تنمية ريفية", "شؤون اجتماعية"],
+				keywords: ["جمعية أسلدة", "أنشطة", "مشاريع", "تنمية مستدامة", "بيئة", "تنمية قروية", "شؤون اجتماعية"],
 				domains: {
 					environment: "البيئة",
-					infrastructure: "البنية التحتية والتنمية الريفية",
+					infrastructure: "البنية التحتية والتنمية القروية",
 					social: "الشؤون الاجتماعية والعائلة",
 					formation: "التكوين والتعليم",
 				},
@@ -487,7 +514,9 @@ export const translations = {
 			contact: "اتصل بنا",
 			info: "معلومات",
 			location: "دوار أسلدة، أسني",
+			emailLabel: "البريد الإلكتروني :",
 			email: "associationasselda@gmail.com",
+			phoneLabel: "الهاتف :",
 			phone: "0660015730",
 			social: "وسائل التواصل الاجتماعي",
 			followUs: "تابعنا",
