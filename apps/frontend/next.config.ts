@@ -9,8 +9,12 @@ const nextConfig: NextConfig = {
 				port: "1337",
 				pathname: "/**",
 			},
+			{
+				protocol: "https",
+				hostname: "projet-site-web-asselda-production.up.railway.app",
+				pathname: "/**",
+			},
 		],
-		dangerouslyAllowLocalIP: true,
 	},
 };
 
